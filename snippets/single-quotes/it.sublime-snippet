@@ -2,7 +2,7 @@
 	<content><![CDATA[
 it('${1:should behave...}', function() {
 	$2
-});]]>
+})]]>
 	</content>
 	<tabTrigger><![CDATA[it]]></tabTrigger>
 	<scope>source.js</scope>

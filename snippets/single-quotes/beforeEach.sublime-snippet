@@ -2,7 +2,7 @@
 	<content><![CDATA[
 beforeEach(function() {
 	$1
-});]]>
+})]]>
 	</content>
 	<tabTrigger><![CDATA[be]]></tabTrigger>
 	<scope>source.js</scope>
