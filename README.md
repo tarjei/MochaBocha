@@ -24,6 +24,7 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().to.eql`: tde⇥ (to deep equal)
 - `expect().to.match`: tm⇥ 
 - `expect().to.be.true`: tbt⇥
+- `expect().to.have.length`: thl⇥
 
 
 ### Leftovers from the old package (to be rewritten or deleted...)
