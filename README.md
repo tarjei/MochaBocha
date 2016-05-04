@@ -25,12 +25,12 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().to.match`: tm⇥ 
 - `expect().to.be.true`: tbt⇥
 - `expect().to.have.length`: thl⇥
+- `expect().to.be.false`: tbf⇥
 
 
 ### Leftovers from the old package (to be rewritten or deleted...)
 - `expect().toBeCloseTo`: tbct⇥
 - `expect().toBeDefined`: tbd⇥
-- `expect().toBeFalsy`: tbf⇥
 - `expect().toBeGreaterThan`: tbgt⇥
 - `expect().toBeLessThan`: tblt⇥
 - `expect().toBeNull`: tbn⇥
