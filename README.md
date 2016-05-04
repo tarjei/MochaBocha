@@ -1,26 +1,30 @@
-# Jasmine
+# Mocha
 
-Sublime Text package that includes syntax highlighting, snippets and commands for [Jasmine](http://jasmine.github.io) the Javascript BDD framework.
-
-This package is a merge between [Jasmine BDD](https://github.com/caiogondim/jasmine-sublime-snippets) from [@caiogondim](https://github.com/caiogondim) and [Jasmine](https://github.com/gja/sublime-text-2-jasmine) from [@gja](https://github.com/gja).
+This is a fork of the excelent jasmine-sublime snippets and syntax package (https://github.com/NicoSantangelo/sublime-jasmine) with some (if not all) the snippets 
 
 ## Snippets
 
-Below is a list of all snippets currently supported on this package and the triggers of each one. The **⇥** means the `TAB` key.
+Below is a list of all snippets currently -supported- in on this package and the triggers of each one. The **⇥** means the `TAB` key.
 
 ### Specs
 - `describe`: desc⇥
 - `xdescribe`: xdesc⇥
-- `fdescribe`: fdesc⇥
 - `it`: it⇥
 - `xit`: xit⇥
-- `fit`: fit⇥
 - `afterEach`: ae⇥
 - `beforeEach`: be⇥
+- `after`: aft⇥
+- `before`: bef⇥
 
 ### Expectations
 - `expect`: exp⇥
-- `expect().toBe`: tb⇥
+- `expect().to.be`: tb⇥
+- `expect().to.equal`: te⇥
+- `expect().to.eql`: tde⇥ (to deep equal)
+- `expect().to.match`: tm⇥ 
+
+
+### Leftovers from the old package (to be rewritten or deleted...)
 - `expect().toBeCloseTo`: tbct⇥
 - `expect().toBeDefined`: tbd⇥
 - `expect().toBeFalsy`: tbf⇥
@@ -30,7 +34,7 @@ Below is a list of all snippets currently supported on this package and the trig
 - `expect().toBeTruthy`: tbt⇥
 - `expect().toBeUndefined`: tbu⇥
 - `expect().toContain`: tc⇥
-- `expect().toEqual`: te⇥
+
 - `expect().toHaveBeenCalled`: thbc⇥
 - `expect().toHaveBeenCalledWith`: thbcw⇥
 - `expect().toMatch`: tm⇥
@@ -49,26 +53,6 @@ Below is a list of all snippets currently supported on this package and the trig
 - `expect().not.toEqual`: ne⇥
 - `expect().not.toMatch`: nm⇥
 - `expect().not.toThrow`: nt⇥
-- `jasmine.any`: any⇥
-- `jasmine.objectContaining`: oc⇥
-
-### Spies
-- `spyOn`: so⇥
-- `spyOn.and.callThrough`: sct⇥
-- `spyOn.and.callFake`: scf⇥
-- `spyOn.and.returnValue`: srv⇥
-- `spyOn.and.stub`: ss⇥
-- `spyOn.and.throwError`: ste⇥
-- `spy.calls.all`: ca⇥
-- `spy.calls.allArgs`: caa⇥
-- `spy.calls.any`: ca⇥
-- `spy.calls.argsFor`: caf⇥
-- `spy.calls.count`: cc⇥
-- `spy.calls.first`: cf⇥
-- `spy.calls.mostRecent`: cmr⇥
-- `spy.calls.reset`: cr⇥
-- `createSpy`: cs⇥
-- `createSpyObj`: cso⇥
 
 
 ## Commands
