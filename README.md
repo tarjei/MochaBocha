@@ -15,7 +15,8 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `beforeEach`: be⇥
 - `after`: aft⇥
 - `before`: bef⇥
-
+- `expect().not.to.equal`: ne⇥
+- 
 ### Expectations
 - `expect`: exp⇥
 - `expect().to.be`: tb⇥
@@ -50,7 +51,7 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().not.toBeTruthy`: nt⇥
 - `expect().not.toBeUndefined`: nu⇥
 - `expect().not.toContain`: nc⇥
-- `expect().not.toEqual`: ne⇥
+
 - `expect().not.toMatch`: nm⇥
 - `expect().not.toThrow`: nt⇥
 
