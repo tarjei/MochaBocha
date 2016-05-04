@@ -23,6 +23,7 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().to.equal`: te⇥
 - `expect().to.eql`: tde⇥ (to deep equal)
 - `expect().to.match`: tm⇥ 
+- `expect().to.be.true`: tbt⇥
 
 
 ### Leftovers from the old package (to be rewritten or deleted...)
@@ -32,7 +33,6 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().toBeGreaterThan`: tbgt⇥
 - `expect().toBeLessThan`: tblt⇥
 - `expect().toBeNull`: tbn⇥
-- `expect().toBeTruthy`: tbt⇥
 - `expect().toBeUndefined`: tbu⇥
 - `expect().toContain`: tc⇥
 
