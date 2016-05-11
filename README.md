@@ -26,6 +26,8 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().to.be.true`: tbt⇥
 - `expect().to.have.length`: thl⇥
 - `expect().to.be.false`: tbf⇥
+- `expect().to.be.defined`: tbu⇥
+- `expect().not.to.be.defined`: nu⇥
 
 
 ### Leftovers from the old package (to be rewritten or deleted...)
@@ -34,7 +36,6 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().toBeGreaterThan`: tbgt⇥
 - `expect().toBeLessThan`: tblt⇥
 - `expect().toBeNull`: tbn⇥
-- `expect().toBeUndefined`: tbu⇥
 - `expect().toContain`: tc⇥
 
 - `expect().toHaveBeenCalled`: thbc⇥
@@ -50,7 +51,6 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().not.toBeLessThan`: nlt⇥
 - `expect().not.toBeNull`: nn⇥
 - `expect().not.toBeTruthy`: nt⇥
-- `expect().not.toBeUndefined`: nu⇥
 - `expect().not.toContain`: nc⇥
 
 - `expect().not.toMatch`: nm⇥
