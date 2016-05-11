@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[expect($1).toThrow()$0]]>
+	<content><![CDATA[expect($1).to.throw()$0]]>
 	</content>
 	<tabTrigger><![CDATA[tt]]></tabTrigger>
 	<scope>source.js</scope>
-	<description>toThrow</description>
+	<description>to.throw</description>
 </snippet>

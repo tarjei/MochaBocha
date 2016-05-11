@@ -29,32 +29,21 @@ Below is a list of all snippets currently -supported- in on this package and the
 - `expect().to.be.defined`: tbu⇥
 - `expect().not.to.be.defined`: nu⇥
 
-
-### Leftovers from the old package (to be rewritten or deleted...)
-- `expect().toBeCloseTo`: tbct⇥
-- `expect().toBeDefined`: tbd⇥
-- `expect().toBeGreaterThan`: tbgt⇥
-- `expect().toBeLessThan`: tblt⇥
-- `expect().toBeNull`: tbn⇥
-- `expect().toContain`: tc⇥
-
-- `expect().toHaveBeenCalled`: thbc⇥
-- `expect().toHaveBeenCalledWith`: thbcw⇥
-- `expect().toMatch`: tm⇥
-- `expect().toThrow`: tt⇥
-- `expect().toThrowError`: tte⇥
-- `expect().not.toBe`: nb⇥
-- `expect().not.toBeCloseTo`: nct⇥
-- `expect().not.toBeDefined`: nd⇥
-- `expect().not.toBeFalsy`: nf⇥
+- `expect().to.be.defined`: tbd⇥
+- `expect().to.be.above`: tbgt⇥
+- `expect().to.be.below`: tblt⇥
+- `expect().to.be.null`: tbn⇥
+- `expect().to.have.string`: tc⇥
+- `expect().to.match`: tm⇥
+- `expect().to.throw`: tt⇥
+- `expect().to.throw(Error)`: tte⇥
+- `expect().not.to.match`: nm⇥
+- `expect().not.to.be`: nb⇥
+- `expect().not.to.be.defined`: nd⇥
 - `expect().not.toBeGreaterThan`: ngt⇥
-- `expect().not.toBeLessThan`: nlt⇥
-- `expect().not.toBeNull`: nn⇥
-- `expect().not.toBeTruthy`: nt⇥
-- `expect().not.toContain`: nc⇥
-
-- `expect().not.toMatch`: nm⇥
-- `expect().not.toThrow`: nt⇥
+- `expect().not.to.be.null`: nn⇥
+- `expect().not.to.have.string`: nc⇥
+- `expect().not.to.throw`: nt⇥
 
 
 ## Commands

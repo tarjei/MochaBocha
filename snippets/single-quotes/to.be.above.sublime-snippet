@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[expect($1).toBeGreaterThan($2)$0]]>
+	<content><![CDATA[expect($1).to.be.above($2)$0]]>
 	</content>
 	<tabTrigger><![CDATA[tbgt]]></tabTrigger>
 	<scope>source.js</scope>
-	<description>toBeGreaterThan</description>
+	<description>to.be.above</description>
 </snippet>
